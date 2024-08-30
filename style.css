@@ -1,0 +1,438 @@
+:root {
+  --maincolor: hsl(218, 28%, 13%);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p {
+  background-color: var(--maincolor);
+}
+.parent {
+  background-color: var(--maincolor);
+  color: white;
+  display: flex;
+}
+.logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 30%;
+  padding: 20px;
+  align-items: center;
+}
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 90px;
+}
+.links ul {
+  width: 40%;
+  display: flex;
+  color: white;
+  list-style: none;
+  justify-content: space-between;
+}
+.links ul a {
+  color: white;
+  text-decoration: none;
+}
+.links ul a:hover {
+  color: red;
+}
+/* section1------------------------- */
+.parent2 {
+  background-color: var(--maincolor);
+  display: flex;
+}
+.parent2 .intro {
+  width: 60%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 210px;
+}
+/* 3-----------------------*/
+.parent3 {
+  background-color: var(--maincolor);
+  color: white;
+  text-align: center;
+}
+.parent3.info {
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.parent3.text {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: large;
+}
+p {
+  font-size: small;
+}
+.parent3 .buttun {
+  background-color: hsl(198, 60%, 50%);
+  padding: 10px;
+  height: 10px;
+  width: 90px;
+  margin-left: 580px;
+  border-radius: 20px;
+}
+.parent3 .buttun a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.buttun a:hover {
+  color: red;
+}
+/* 4------------------ */
+.cards {
+  width: 70%;
+  height: 600px;
+  /* background-image:  url(.); */
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 130px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+.cards p {
+  margin-top: 5px;
+  font-size: small;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  margin-top: 20px;
+}
+
+.about {
+  width: 85%;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-left: 50px;
+}
+.about .in {
+  margin-left: 30px;
+}
+.about .in p {
+  margin-top: 10px;
+}
+/* 5------------------------ */
+.cardz {
+  position: relative;
+  margin-top: 70px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 200px;
+}
+.icon {
+  position: absolute;
+  left: 70px;
+  top: 30px;
+
+}
+.card6 {
+  background-color: hsl(219, 30%, 18%);
+  width: 22%;
+  margin-left: -8px;
+  padding: 10px;
+  position: relative;
+}
+.card6 .para6 p {
+  margin-top: 10px;
+
+  font-size: 12px;
+}
+.person6 {
+  margin-top: 15px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+.person6 .photo6 {
+  width: 20%;
+}
+.person6 .inf6 p {
+  font-size: 9px;
+  margin-top: 5px;
+}
+.person6 .photo6 img {
+  width: 50%;
+  border-radius: 40px;
+}
+
+.card6 {
+  background-color: hsl(219, 30%, 18%);
+  width: 22%;
+  margin-left: -8px;
+  padding: 10px;
+}
+.card6 .para6 p {
+  margin-top: 10px;
+
+  font-size: 12px;
+}
+.person6 {
+  margin-top: 15px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+.person6 .photo6 {
+  width: 20%;
+}
+.person6 .inf6 p {
+  font-size: 9px;
+  margin-top: 5px;
+}
+.person6 .photo6 img {
+  width: 50%;
+  border-radius: 40px;
+}
+
+/*  card7------------------ */
+.card7 {
+  background-color: hsl(219, 30%, 18%);
+  width: 22%;
+  margin-left: -8px;
+  padding: 10px;
+}
+.card7 .para7 p {
+  margin-top: 10px;
+
+  font-size: 12px;
+}
+.person7 {
+  margin-top: 15px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+.person7 .photo7 {
+  width: 20%;
+}
+.person7 .inf7 p {
+  font-size: 9px;
+  margin-top: 5px;
+}
+.person7 .photo7 img {
+  width: 50%;
+  border-radius: 40px;
+}
+/* card8------------------------- */
+.card8 {
+  background-color: hsl(219, 30%, 18%);
+  width: 22%;
+  margin-left: -8px;
+  padding: 10px;
+}
+.card8 .para8 p {
+  margin-top: 10px;
+
+  font-size: 12px;
+}
+.person8 {
+  margin-top: 15px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+.person8 .photo8 {
+  width: 20%;
+}
+.person8 .inf8 p {
+  font-size: 9px;
+  margin-top: 5px;
+}
+.person8 .photo8 img {
+  width: 50%;
+  border-radius: 40px;
+}
+
+.card6,
+.card7,
+.card8 {
+  box-shadow: 5px 3px 1px 0px hsl(217, 28%, 15%);
+  transition: 0.3s;
+}
+
+.card6:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.card7:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.card8:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+/* before last--------------------- */
+.email {
+  background-color: hsl(217, 28%, 15%);
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+  margin-left: 300px;
+  height: 100px;
+  padding: 20px;
+}
+.email .source {
+  font-size: 12px;
+}
+.email .source p {
+  margin-top: 5px;
+  font-size: 11px;
+}
+.login {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .start {
+  background-color: hsl(198, 60%, 50%);
+  width: 30%;
+  height: 13px;
+  text-align: center;
+  padding: 10px;
+  margin-right: -40px;
+
+  border-radius: 40px;
+}
+.login .gmail input {
+  margin-left: 20px;
+  width: 180%;
+  height: 25px;
+  border-radius: 60px;
+  padding: 5px;
+}
+/* the last ----------------- */
+.last {
+  margin-top: 50px;
+  display: flex;
+  background-color: hsl(216, 53%, 9%);
+  color: white;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  height: 100px;
+}
+.us {
+  margin-top: 20px;
+  width: 30%;
+  margin-left: -10px;
+}
+.us .mylogo {
+  width: 70%;
+}
+.us .aboutus {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+}
+.us .aboutus p {
+  font-size: 11px;
+}
+.foot2 {
+  width: 15%;
+  margin-top: 50px;
+}
+.conect .tele {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tele .iconnumber {
+  width: 10%;
+}
+.tele .number p {
+  font-size: 9px;
+  margin-left: 10px;
+}
+.conect .massege {
+  display: flex;
+  align-items: center;
+}
+.massege .icongmai {
+  width: 10%;
+}
+.massege .youremail p {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.foot3 {
+  display: flex;
+  width: 15%;
+  margin-top: 50px;
+}
+.first {
+  margin-right: 20px;
+}
+.first p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.second p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.foot4 {
+  display: flex;
+  width: 15%;
+  margin: 50px;
+}
+.foot4 img {
+  width: 60%;
+}
+ 
+#emailcard {
+  position: relative;
+  margin-top: 100px;
+}
+.email {
+  position: absolute;
+  
+  bottom: -65px ;
+}
